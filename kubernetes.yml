@@ -17,8 +17,8 @@ spec:
         - name: insurance
           image: pratheep04/medicure:1.0
           ports:
-            - containerPort: 8081
+            - containerPort: 8082
           env:
             - name: PORT
-              value: "8081"
+              value: "8082"
 
